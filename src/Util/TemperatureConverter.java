@@ -3,7 +3,7 @@ package Util;
 public class TemperatureConverter {
 	
 	public static double CelsiusFahrenheit(double Celsius) {
-		return (Celsius * 9/5 + 32);
+		return (Celsius * 9/5) + 32;
 	}
 	
 	public static double FahrenheitCelsius(double Fahrenheit) {
